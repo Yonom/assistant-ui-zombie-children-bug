@@ -10,10 +10,10 @@ import { MarkdownTextPrimitive } from "@assistant-ui/react-markdown";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const TICK_RATE_HZ = 50;
-const SUBAGENT_DEPTH = 6;
+const SUBAGENT_DEPTH = 16;
 
 const SESSION_SHAPES: Record<string, { msgCount: number; partsPerMsg: number }> = {
-  alpha: { msgCount: 8, partsPerMsg: SUBAGENT_DEPTH },
+  alpha: { msgCount: 12, partsPerMsg: SUBAGENT_DEPTH },
   beta: { msgCount: 3, partsPerMsg: 2 },
 };
 
