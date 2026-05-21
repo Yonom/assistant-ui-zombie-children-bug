@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": { "dev": "vite", "build": "tsc -b && vite build" },
+  "scripts": { "dev": "vite", "build": "vite build" },
   "dependencies": {
     "@assistant-ui/react": "^0.12.28",
     "@assistant-ui/react-markdown": "^0.12.11",
