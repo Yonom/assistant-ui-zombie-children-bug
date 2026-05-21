@@ -3,6 +3,8 @@
 Verbatim reproduction of the MRE Seluj78 posted in
 https://github.com/assistant-ui/assistant-ui/issues/4051 — `tapClientLookup: Index N out of bounds (length: M)` triggered by rAF-driven session swap against a deep `MarkdownTextPrimitive` subscriber tree.
 
+Hosted: https://assistant-ui-zombie-children-bug.vercel.app
+
 ## Setup
 
 ```sh
